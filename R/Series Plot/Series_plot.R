@@ -140,7 +140,7 @@ invisible(lapply(subjects_trts, function(subject) {
     # table title and footnote
     labs(
       title = "Change from baseline",
-      caption = "AST = Alkaline Phosphatse. ALT = Alkaline Transaminase. ULN = Upper Limit Normal."
+      caption = "AST = Aspartate Aminotransferase (U/L). ALT = Alanine Aminotransferase (U/L). ULN = Upper Limit Normal."
     ) +
     # additional styling
     theme(
